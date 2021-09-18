@@ -10,15 +10,14 @@ module.exports = {
         [
             '@vuepress/plugin-search',
             {
-                getExtraFields: (page) => page.
-                    locales: {
-                '/': {
-                    placeholder: 'Search',
+                locales: {
+                    '/': {
+                        placeholder: 'Search',
+                    },
+                    '/zh/': {
+                        placeholder: '搜索',
+                    },
                 },
-                '/zh/': {
-                    placeholder: '搜索',
-                },
-            },
             },
         ],
     ],
